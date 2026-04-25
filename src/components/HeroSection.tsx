@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FiArrowDown, FiDownload } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 const HeroSection = () => {
   return (
@@ -48,7 +49,18 @@ const HeroSection = () => {
             >
               Resume <FiDownload />
             </motion.a>
+            <motion.a
+              href="https://leetcode.com/u/chiranjeevi557/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl border-2 border-border text-foreground font-heading font-bold flex items-center justify-center gap-3 hover:bg-card transition-all card-3d-hover shadow-lg"
+              whileHover={{ scale: 1.05, translateZ: 20 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              LeetCode <SiLeetcode />
+            </motion.a>
           </div>
+
         </motion.div>
 
         {/* Right - Profile Image */}

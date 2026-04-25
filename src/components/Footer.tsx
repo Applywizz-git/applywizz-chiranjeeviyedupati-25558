@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FiLinkedin, FiMail, FiHeart, FiGithub } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -18,8 +19,10 @@ const Footer = () => {
           {[
             { icon: FiMail, href: "mailto:venkata.chiranjeevi557@gmail.com", label: "Email" },
             { icon: FiLinkedin, href: "https://www.linkedin.com/in/venkatachiranjeevi/", label: "LinkedIn" },
-            { icon: FiGithub, href: "https://github.com/chiranjeevi557", label: "GitHub" }
+            { icon: FiGithub, href: "https://github.com/chiranjeevi557", label: "GitHub" },
+            { icon: SiLeetcode, href: "https://leetcode.com/u/chiranjeevi557/", label: "LeetCode" }
           ].map((social, i) => (
+
             <motion.a
               key={social.label}
               href={social.href}

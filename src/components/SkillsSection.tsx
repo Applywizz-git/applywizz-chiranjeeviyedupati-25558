@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import {
-  FiPieChart, FiCode, FiCloud, FiShield, FiServer, FiZap
+  FiPieChart, FiCode, FiCloud, FiShield, FiServer, FiZap, FiDatabase, FiActivity, FiBarChart2, FiCheckCircle
 } from "react-icons/fi";
 
 const skillCategories = [
   {
     icon: FiCode,
-    title: "Programming",
+    title: "Programming Languages",
     skills: ["Java", "JavaScript", "TypeScript", "SQL"],
   },
   {
     icon: FiServer,
     title: "Backend Development",
-    skills: ["Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "Hibernate", "Microservices", "REST APIs", "GraphQL", "Apache Kafka"],
+    skills: ["Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "Hibernate", "Spring Cloud", "Spring WebFlux", "Microservices", "REST APIs", "GraphQL", "OpenAPI (Swagger)", "Feign Client", "Resilience4j"],
   },
   {
     icon: FiPieChart,
@@ -20,9 +20,14 @@ const skillCategories = [
     skills: ["React.js", "Angular", "HTML5", "CSS3"],
   },
   {
+    icon: FiDatabase,
+    title: "Data & Persistence",
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+  },
+  {
     icon: FiCloud,
     title: "Cloud & Distributed Systems",
-    skills: ["AWS (Lambda, API Gateway, ECS, EKS, S3)", "GCP (Cloud Run, Pub/Sub)", "Serverless Architecture"],
+    skills: ["AWS (Lambda, API Gateway, ECS, EKS, S3, CloudFront, IAM)", "GCP (Cloud Run, Pub/Sub)", "Serverless Architecture"],
   },
   {
     icon: FiZap,
@@ -30,9 +35,24 @@ const skillCategories = [
     skills: ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Azure DevOps", "Terraform", "Maven", "Gradle"],
   },
   {
+    icon: FiActivity,
+    title: "Event Streaming & Integration",
+    skills: ["Apache Kafka", "Event-Driven Architecture"],
+  },
+  {
     icon: FiShield,
     title: "Security & Authentication",
     skills: ["Spring Security", "JWT", "OAuth2", "RBAC"],
+  },
+  {
+    icon: FiBarChart2,
+    title: "Observability & Monitoring",
+    skills: ["Prometheus", "Grafana", "Splunk", "Datadog"],
+  },
+  {
+    icon: FiCheckCircle,
+    title: "Software Engineering Practices",
+    skills: ["System Design", "Design Patterns", "SOLID Principles", "Agile", "Test-Driven Development"],
   },
 ];
 

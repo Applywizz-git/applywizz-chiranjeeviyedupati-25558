@@ -5,7 +5,7 @@ const certifications = [
   { name: "AWS Certified Solutions Architect - Associate", provider: "AWS", icon: FiCloud },
   { name: "Java Programming and Software Engineering Fundamentals", provider: "Coursera", icon: FiCode },
   { name: "Spring Framework Specialization", provider: "Coursera", icon: FiZap },
-  { name: "Building Scalable Java Microservices", provider: "Coursera", icon: FiServer },
+  { name: "Building Scalable Java Microservices with Spring Boot and Spring Cloud ", provider: "Coursera", icon: FiServer },
   { name: "Full Stack Web Development with React", provider: "Coursera", icon: FiPieChart },
   { name: "DevOps Foundations: CI/CD", provider: "LinkedIn Learning", icon: FiSettings },
 ];
