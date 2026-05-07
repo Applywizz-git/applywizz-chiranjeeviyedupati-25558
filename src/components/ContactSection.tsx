@@ -104,7 +104,7 @@ const ContactSection = () => {
                 </motion.div>
                 <div className="card-3d-content min-w-0">
                   <p className="text-accent font-heading font-black text-[10px] md:text-xs uppercase tracking-[0.3em] mb-1">{item.label}</p>
-                  <p className="text-lg md:text-xl lg:text-2xl font-heading font-black text-foreground group-hover:text-accent transition-colors break-all md:break-normal leading-tight">
+                  <p className="text-sm md:text-base lg:text-lg font-heading font-black text-foreground group-hover:text-accent transition-colors break-all md:break-normal leading-tight">
                     {item.value}
                   </p>
                 </div>
